@@ -24,6 +24,7 @@ const Application: React.FunctionComponent<{}> = (props) => {
                             exact={route.exact}
                             render={(props: RouteComponentProps<any>) => (
                                 <route.component
+                                name={route.name}
                                     {...props}
                                     {...route.props}
                                 />

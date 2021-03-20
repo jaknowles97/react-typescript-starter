@@ -11,7 +11,7 @@ const routes: IRoute[] = [
 
     },
     {
-        path: '/about',
+        path: '/about/:number',
         name: 'About Page',
         component: AboutPage,
         exact: true
